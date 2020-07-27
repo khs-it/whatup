@@ -1,0 +1,56 @@
+*{
+	font-family: 'Merriweather', serif;
+}
+.flight-section{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../img/bg4.jpg);
+	background-size: cover;
+	height: 90vh;
+}
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff; 
+}
+.head{
+	margin-top: 150px;
+}
+.flight-search {
+  padding: 20px 0 0 0 !important; 
+}
+  @media (min-width: 768px) {
+.flight-search {
+   margin-top: -450px;
+   padding: 0 !important; 
+   
+   } 
+}
+.flight-search .container-wrap {
+   z-index: 1;
+}
+@media (min-width: 768px) {
+  .flight-search .container-wrap {
+  	width: 90%;
+  	background-color: rgba(0,0,0,0.7);
+	}
+}
+
+.flight-search {
+  position: relative;
+  width: 90%;
+  display: block;
+  
+}
+.flight-navbar{
+	height: 90px;
+	width: auto;
+}
+.flight-section h1{
+	margin-top: 100px;
+}
+.flight-detail{
+	margin-top: 250px;
+}
